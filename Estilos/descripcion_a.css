@@ -1,0 +1,556 @@
+
+@media(min-width:641px){/*Pantalla Grande*/
+   
+  
+ main{
+   position: relative;
+   background-color: #001536;
+   padding-bottom: 200px;
+   font-family: 'Abel', sans-serif;
+ }
+  
+  
+        /* Titulos - imagen - aignaciones*/
+ main .presento_juego h1{
+   text-align: center;
+   padding-top: 60px;
+   color:   #fad7a0 ;
+ }
+
+ main .presento_juego h2{
+   text-align: center;
+   padding:10px 5px 60px 5px;
+   color:  #d6dbdf ;
+ }
+
+ main .presento_juego img{
+   width: 60%;
+   display: inline-block;
+   padding-left: 20px;
+ }
+
+ main .asignaciones{
+   margin-right:15px ;
+   position: absolute;
+   left: 62%;
+   top: 11%;
+   background-color:#0e2c44;
+   padding: 12px 12px;
+ }
+  label[for=valoracion]{
+    color: #418c62;
+    font-size: 1.2em;
+  }
+  main .asignaciones #val{
+    color: #418c62;
+    font-size: 1.2em;
+  }
+  
+  main .asignaciones h2{
+    color: #f5cba7;
+  }
+  
+  main .asignaciones .precio{
+    color: #d41437;
+  }
+  
+ main .asignaciones button{
+  margin-top:10px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  border:1px solid aliceblue;
+  font-size: 1.4em;
+ }
+  
+
+ main #escrito_descr{
+   padding: 20px 15px;
+   color: #f5cba7;
+ }
+
+  
+  
+  
+    /*Niveles */
+
+ main .por_nivel{
+   margin-bottom:;
+   margin-top: 70px;
+
+ }
+
+ main .nom_nivel{
+   text-align: center;
+   color: #d35400 ;
+ }
+
+ main .nivel{
+   border: 1px solid red;
+   height: 200px;
+   border-left: 10px solid #0e2c44;
+   border-right: 10px solid #0e2c44;
+   border-top: 3px solid #0e2c44;
+   border-bottom: 3px solid #0e2c44;
+   color: #f5cba7;
+ }
+
+main .nivel img{
+  float: left; 
+  padding-right: 15px;
+  width: 20%;
+  height: 70%
+}
+
+
+
+     /*Mas informacion por niveles*/
+  
+ main .mas_info #mas_niveles #atras img{
+  height: 100%;
+   width: 70px;
+ }
+  
+   main .mas_info #mas_niveles #delante img{
+  height: 100%;
+   width: 70px;
+ }
+
+  #mas_niveles{
+    position: relative;
+  }
+  
+
+
+ main .mas_info h2{
+   color: #f5cba7;
+   margin-top: 180px;
+   margin-bottom: 5px;
+   margin-left: 20%;
+ }
+
+  
+  main .mas_info #atras{
+    width: 10%;
+    height: 110px;
+    position: absolute;
+    margin-left:10%;
+    border: none; 
+    background-color: transparent;
+  }
+  main .mas_info #delante{
+    width: 10%;
+    height: 110px;
+    margin-left: 80%;
+    background-color: transparent;
+    border: none;
+    
+  }
+  
+   main .mas_info #muestro1 img{
+    width: 25%;
+  }
+    main .mas_info #muestro2 img{
+    width: 25%;
+  }
+ 
+  
+  
+  main .mas_info img{
+    height: 110px;
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .mostrando{
+    z-index: 4;
+  }
+ main .mas_info #muestro1{
+   position: absolute;
+   top:0;
+   width: 60%;
+   margin: 0 20%;
+   font-size: 0;
+   
+ }
+ 
+ main .mas_info #muestro2{
+   position: absolute;
+   top: 0;
+   width: 60%;
+   margin: 0 20%;
+   font-size:0;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+        /*Cambio de pantalla*/
+
+
+
+@media (max-width:640px) and (min-width: 401px){
+
+ main{
+   position: relative;
+   background-color: #001536;
+   padding-bottom: 200px;
+   font-family: 'Abel', sans-serif;
+ }
+  
+  
+        /* Titulos - imagen - aignaciones*/
+ main .presento_juego h1{
+   text-align: center;
+   padding-top: 70px;
+   color:   #fad7a0 ;
+ }
+
+ main .presento_juego h2{
+   text-align: center;
+   padding:10px 5px 60px 5px;
+   color:  #d6dbdf ;
+ }
+
+ main .presento_juego img{
+   width: 100%;
+ }
+
+ main .asignaciones{
+   background-color:#0e2c44;
+   text-align: center;
+ }
+  
+ label[for=valoracion]{
+  color: #418c62;
+  font-size: 1.2em;
+}
+  main .asignaciones #val{
+    color:  #fad7a0 ;
+    font-size: 1.2em;
+  }
+  
+  main .asignaciones h2{
+    color: #f5cba7;
+  }
+  
+  main .asignaciones .precio{
+    color: #d41437;
+  }
+  
+ main .asignaciones button{
+  margin-top:10px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.4em;
+  background-color: #2a508c;
+  color: #e5e8e8 ;
+  font-weight: bold;
+ }
+  
+
+ main #escrito_descr{
+   padding: 20px 15px;
+   color: #f5cba7;
+ }
+
+  
+  
+  
+    /*Niveles */
+
+ main .por_nivel{
+   margin-bottom:;
+   margin-top: 70px;
+ }
+
+ main .nom_nivel{
+   text-align: center;
+   color: #d35400 ;
+ }
+
+ main .nivel{
+   border: 1px solid red;
+   border-left: 10px solid #0e2c44;
+   border-right: 10px solid #0e2c44;
+   border-top: 3px solid #0e2c44;
+   border-bottom: 3px solid #0e2c44;
+   color: #f5cba7;
+   padding-bottom: 20px;
+ }
+
+main .nivel img{
+  width: 100%;
+}
+
+
+
+     /*Mas informacion por niveles*/
+  
+ main .mas_info #mas_niveles #atras img{
+  height: 100%;
+   width: 70px;
+ }
+  
+   main .mas_info #mas_niveles #delante img{
+  height: 100%;
+   width: 70px;
+ }
+
+  #mas_niveles{
+    position: relative;
+  }
+  
+
+
+ main .mas_info h2{
+   color: #f5cba7;
+   margin-top: 180px;
+   margin-bottom: 5px;
+   margin-left: 20%;
+ }
+
+  
+  main .mas_info #atras{
+    display: none;
+  }
+  
+  main .mas_info #delante{
+   display: none;
+  }
+  
+   main .mas_info #muestro1 img{
+    width: 25%;
+  }
+    main .mas_info #muestro2 img{
+    width: 22%;
+  }
+
+  
+  
+  main .mas_info img{
+    height: 110px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .mostrando{
+    z-index: 4;
+  }
+
+ main .mas_info #muestro1{
+   position: absolute;
+   top:0;
+   width: 88%;
+   margin: 0 5%;
+   font-size: 0;
+   
+ }
+ 
+ main .mas_info #muestro2{
+   position: absolute;
+   top: 0;
+   width: 60%;
+   margin: 0 5%;
+   font-size:0;
+  }
+  
+
+  
+}
+
+
+
+@media(max-width:400px){
+
+  
+ main{
+   position: relative;
+   background-color: #001536;
+   padding-bottom: 200px;
+   font-family: 'Abel', sans-serif;
+ }
+  
+  
+        /* Titulos - imagen - aignaciones*/
+ main .presento_juego h1{
+   text-align: center;
+   padding-top: 70px;
+   color:   #fad7a0 ;
+ }
+
+ main .presento_juego h2{
+   text-align: center;
+   padding:10px 5px 60px 5px;
+   color:  #d6dbdf ;
+ }
+
+ main .presento_juego img{
+   width: 100%;
+ }
+
+ main .asignaciones{
+   background-color:#0e2c44;
+   text-align: center;
+ }
+  
+ label[for=valoracion]{
+  color: #418c62;
+  font-size: 1.2em;
+}
+  main .asignaciones #val{
+    color:  #fad7a0 ;
+    font-size: 1.2em;
+  }
+  
+  main .asignaciones h2{
+    color: #f5cba7;
+  }
+  
+  main .asignaciones .precio{
+    color: #d41437;
+  }
+  
+ main .asignaciones button{
+  margin-top:10px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.4em;
+  background-color: #2a508c;
+  color: #e5e8e8 ;
+  font-weight: bold;
+ }
+  
+
+ main #escrito_descr{
+   padding: 20px 15px;
+   color: #f5cba7;
+ }
+
+  
+  
+  
+    /*Niveles */
+
+ main .por_nivel{
+   margin-bottom:;
+   margin-top: 70px;
+ }
+
+ main .nom_nivel{
+   text-align: center;
+   color: #d35400 ;
+ }
+
+ main .nivel{
+   border: 1px solid red;
+   border-left: 10px solid #0e2c44;
+   border-right: 10px solid #0e2c44;
+   border-top: 3px solid #0e2c44;
+   border-bottom: 3px solid #0e2c44;
+   color: #f5cba7;
+   padding-bottom: 20px;
+ }
+
+main .nivel img{
+  width: 100%;
+}
+
+
+
+     /*Mas informacion por niveles*/
+  
+ main .mas_info #mas_niveles #atras img{
+  height: 100%;
+   width: 70px;
+ }
+  
+   main .mas_info #mas_niveles #delante img{
+  height: 100%;
+   width: 70px;
+ }
+
+  #mas_niveles{
+    position: relative;
+  }
+  
+
+
+ main .mas_info h2{
+   color: #f5cba7;
+   margin-top: 180px;
+   margin-bottom: 5px;
+   margin-left: 20%;
+ }
+
+  
+  main .mas_info #atras{
+    display: none;
+  }
+  
+  main .mas_info #delante{
+   display: none;
+  }
+  
+   main .mas_info #muestro1 img{
+    width: 25%;
+  }
+    main .mas_info #muestro2 img{
+    width: 22%;
+  }
+
+  
+  
+  main .mas_info img{
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+  }
+
+
+.mostrando{
+  z-index: 4;
+}
+ main .mas_info #muestro1{
+   position: absolute;
+   top:0;
+   width: 88%;
+   margin: 0 5%;
+   font-size: 0;
+   
+ }
+ 
+ main .mas_info #muestro2{
+   position: absolute;
+   top: 0;
+   width: 60%;
+   margin: 0 5%;
+   font-size:0;
+  }
+  
+
+}

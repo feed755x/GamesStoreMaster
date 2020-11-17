@@ -1,0 +1,215 @@
+  
+@media(min-width:731px){
+
+  main{
+    background-image: url(mic.jpg);
+    padding-top: 2px;
+    padding-bottom: 30px;
+  }
+  
+  main form{  
+   width: 700px;
+   height: 700px;
+   font-family: 'Abel', sans-serif;
+   border-left: 15px solid#2a508c;
+   border-right: 15px solid #2a508c;  
+   background-color: #d4e6f1 ;
+   margin: 70px auto 120px auto;
+   padding-bottom: 60px;
+   padding-top: 30px;
+  }
+
+  main h1, h2{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 30px;
+  }
+
+  main .campos{
+    padding-left: 2%
+  }
+
+  main #enviard button{
+   margin-top:8%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.4em;
+   background-color: #2a508c;
+  }
+
+  main form input{
+   position: relative;
+    height: 40px;
+   width: 240px;  
+   padding-left: 10px;  
+   font-size: 1em;
+  }
+
+  main form #bordear label{
+   position:relative;
+   bottom: 176px;
+  }
+
+  main form #email{
+    left: 20px;
+  }
+  main form #name{
+    left: 6px;
+  }
+
+  main form button{
+    color:  #d6dbdf;
+    font-weight: bold;
+  }
+  
+  main form #enviard{
+   text-align: center;
+  }
+
+  main form label{
+   font-size: 1.35em;
+  }
+
+  main .campos{
+    padding-top: 5%;
+  }
+
+  main form textarea{
+   height: 200px;
+   min-height: 200px;
+   width: 530px;
+   font-size:1.35em;
+  }
+  
+}  
+
+
+
+          /*Cambio de pantalla*/
+
+@media(max-width:730px){
+
+  main{
+    background-color: #dae5df;
+    padding-top: 2px;
+  }
+  
+  main form{  
+   font-family: 'Abel', sans-serif;
+   border-left: 5px solid #d0d3d4;
+   border-right: 5px solid #d0d3d4;  
+   background-color: #e5e8e8;
+   padding-bottom: 60px;
+   padding-top: 80px;
+  }
+
+  main h1, h2{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 30px;
+  }
+
+  main .campos{
+    padding-left: 2%;
+  }
+
+  main #enviard button{
+   margin-top:8%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.3em;
+  }
+
+  main form input{
+   position: relative;
+   height: 38px;
+   width: 240px;  
+   padding-left: 10px;  
+   font-size: 1em;
+  }
+
+  main form #email{
+    left: 20px;
+  }
+  main form #name{
+    left: 9px;
+  }
+
+  main form #enviard{
+   text-align: center;
+  }
+
+  main form label{
+   font-size: 1.25em;
+  }
+
+  main .campos{
+    padding-top: 3%;
+  }
+
+  main form textarea{
+   height: 200px;
+   min-height: 200px;
+   width: 90%;
+   font-size:1.35em;
+  }
+ 
+}  
+
+
+
+@media(max-width:330px){
+  
+  main{
+    background-color: #dae5df;
+    padding-top: 2px;
+  }
+  
+  main form{  
+   font-family: 'Abel', sans-serif;
+   border-left: 5px solid #d0d3d4;
+   border-right: 5px solid #d0d3d4;  
+   background-color: #e5e8e8;
+   padding-bottom: 60px;
+   padding-top: 80px;
+  }
+
+  main h1, h2{
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 30px;
+  }
+  
+  main #enviard button{
+   margin-top:8%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.3em;
+  }
+
+  main form label{
+   font-size: 1.2em;
+  }
+  
+  main form .campos #name{
+    left: 10px;
+  }
+  
+  main form .campos #email{
+    left:9px;
+  }
+
+  main form textarea{
+   height: 200px;
+   min-height: 200px;
+   width: 90%;
+   font-size:1.35em;
+  }
+  
+}

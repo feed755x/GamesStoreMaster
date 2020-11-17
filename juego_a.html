@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Desripcion del juego </title>
+		<meta charset="utf-8" content="Juego A. Costo $1111. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet urna rutrum, eleifend lacus auctor, vehicula nunc.">
+		<link rel="stylesheet" type="text/css" href="Estilos/descripcion_a.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/footer.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/cabecera.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/formulario_compra.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/cartel.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+		<script src="script/presentacion_juego.js"></script>
+		<script src="script/navSecundaria.js"></script>
+	</head>
+	<body>
+
+		<header>
+			<section id="barra_principal">
+				<button id="menu"><img src="Imagenes/menu.png"></button> 
+				<a href="index.html"><img src="Imagenes/bolsa.png" title="Lorem Ipsum" alt="Logo de la página de e-commerce"></a>	
+				<form id="form_busqueda">
+					<input type="search" id="search" name="search" placeholder="Buscar en la tienda">
+					<button type="submit">Buscar</button>
+				</form>
+				<ul id="registrar">
+					<li><a href="index.html"> Iniciar sesión</a></li>
+					<li><a href="formulario.html">Registarse</a></li>
+				</ul>
+				<button type="button" id="lupa"><img src="Imagenes/search.png"> </button>
+				<button type="button" id="usuario"><img src="Imagenes/user.png"></button>
+			</section>
+
+			<section>
+				<nav id="barra_secundaria">
+					<ul>
+						<li><a href="#"> Categorías</li></a>
+						<li><a href="#"> Top</li></a>
+						<li><a href="#"> Foro</li></a>
+						<li><a href="formulario_contacto.html">Contacto</a></li>
+						<li><a href="#"> Más</li></a>
+					</ul>
+				</nav>
+			</section>
+		</header>
+
+		<main>		  
+			<section class="presento_juego" id="hijoMain">
+				<h1></h1>
+				<h2></h2>
+				<img src= "" title="">
+			</section>
+			<section class="asignaciones">
+				<h2 id="cat"></h2>
+				<h2 id="val"></h2>
+				<h2 class="precio"></h2>
+				<button type="button" id="comprar">Comprar</button>
+				<form>
+					<label for="valoracion">Valora este juego</label>
+					<input type="number" name="valoracion" id="valoracion" min="1" max="10">
+				</form>
+			</section>
+			<section id="escrito_descr">
+				<p>
+				</p>
+			</section>
+
+			<section class="por_nivel">
+				<article class="nivel">
+					<h3 class="nom_nivel"></h3>
+					<img src="" title=""> <p></p>
+				</article>
+
+				<article class="nivel">
+					<h3 class="nom_nivel"></h3>
+					<img src="" title=""> <p></p>
+				</article>
+
+				<article class="nivel">
+					<h3 class="nom_nivel"></h3>
+					<img src="" title=""> <p></p>
+				</article>
+			</section>
+			<section class="mas_info">
+				<h2>MÁS INFORMACIÓN SOBRE NIVELES</h2>
+<!--La idea es que la imágen sea un link a la descripción del nivel, aunque no incorpore al mismo-->
+				<div id="mas_niveles">
+					<button type="button" id="atras" ><img src="Imagenes/atras.png"title="Anterior"></button> 
+					<div id="muestro1" class="mostrando">
+						<img src="" title="Nivel 4">
+						<img src="" title="Nivel 5">
+						<img src="" title="Nivel 6">
+						<img src="" title="Nivel 7">
+					</div>
+					<div id="muestro2">
+						<img src="" title="Nivel 8">
+						<img src="" title="Nivel 9">
+						<img src="" title="Nivel 10">
+						<img src="" title="Nivel 11">
+					</div>
+					<button type="button" id="delante" ><img src="Imagenes/delante.png" alt="Siguiente" ></button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div id="pagos"><p>Se aceptan las siguientes formas de pagos:</p><p class="formap">DÉBITO A</p><p class="formap">DÉBITO B</p><p class="formap">CRÉDITO C</p><p class="formap">CRÉDITO D</p></div>
+
+			<div class="pie" id="contc"><p><a href="formulario_contacto.html">Contacto:</a><br>Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+
+			<div class="pie" id="prod"><p><a href="pagina_principal.html">Productos:</a><br> Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+		</footer>	
+	</body>
+</html>

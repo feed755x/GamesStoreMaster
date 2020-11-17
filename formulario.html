@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario de registro</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Estilos/registro.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/footer.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/cabecera.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+		<script src="script/navSecundaria.js"></script>
+	</head>
+	<body>
+		<header>
+			<section id="barra_principal">
+				<button id="menu"><img src="Imagenes/menu.png"></button> 
+				<a href="index.html"><img src="Imagenes/bolsa.png" title="Lorem Ipsum" alt="Logo de la página de e-commerce"></a>	
+				<form id="form_busqueda">
+					<input type="search" id="search" name="search" placeholder="Buscar en la tienda">
+					<button type="submit">Buscar</button>
+				</form>
+				<ul id="registrar">
+					<li><a href="index.html"> Iniciar sesión</a></li>
+					<li><a href="formulario.html">Registarse</a></li>
+				</ul>
+				<button type="button" id="lupa"><img src="Imagenes/search.png"> </button>
+				<button type="button" id="usuario"><img src="Imagenes/user.png"></button>
+			</section>
+
+			<section>
+				<nav id="barra_secundaria">
+					<ul>
+						<li><a href="#"> Categorías</li></a>
+						<li><a href="#"> Top</li></a>
+						<li><a href="#"> Foro</li></a>
+						<li><a href="formulario_contacto.html">Contacto</a></li>
+						<li><a href="#"> Más</li></a>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		<main>
+			<form>
+				<div id="campos">
+					<h1>Registrarse</h1>
+					<div id="detalle">
+						<h2>Complete con sus datos para registrarse</h2>
+						<h3>Todos los campos son requeridos.</h3>
+					</div>
+						<div class="acompletar">
+						<label for="nombre">Nombre:  </label>
+						<input type="text" id="nombre" name="nombre" maxlength="30" title="Ingrese máximo 30 caracteres" required>
+					</div>
+					<div class="acompletar">
+						<label for="apellido">Apellido:  </label>
+						<input type="text" id="apellido" name="apellido" maxlength="30"  title="Ingrese máximo 30 caracteres" required>
+					</div>
+					<div class="acompletar">
+						<label for="email"> E-mail:  </label>
+						<input type="text" id="email" name="email" multiple required>
+					</div>
+					<div class="acompletar">
+						<label for="pwd" >Contraseña:  </label>
+						<input type="password" id="pwd" name="pwd" minlength="8" maxlength="24" pattern="[a-zA-Z0-9]+" title="Ingrese entre 8 y 24 caracteres dentro de los cuales hayan minúsculas, mayúsculas y números." required="">
+
+						<label for="pwd" id="repetir"></label>
+						<input type="password" id="pwd" name="pwd" minlength="8" maxlength="24" title="Re-ingrese su contraseña" placeholder="Repita contraseña" required>
+					</div>
+					<div id="Regist">
+						<button type="submit">Registrarme</button>
+					</div>
+				</div>
+			</form>
+		</main>
+		<footer>
+			<div id="pagos"><p>Se aceptan las siguientes formas de pagos:</p><p class="formap">DÉBITO A</p><p class="formap">DÉBITO B</p><p class="formap">CRÉDITO C</p><p class="formap">CRÉDITO D</p></div>
+
+			<div class="pie" id="contc"><p><a href="formulario_contacto.html">Contacto:</a><br>Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+
+			<div class="pie" id="prod"><p><a href="pagina_principal.html">Productos:</a><br> Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+		</footer>
+	</body>
+</html>

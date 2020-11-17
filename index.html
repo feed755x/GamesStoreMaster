@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lorem Ipsum E-commerce</title>
+		<meta charset="utf-8" content="Lorem Ipsum E-commerce. Página de ventas de videojuegos">
+		<link rel="stylesheet" type="text/css" href="Estilos/footer.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/cabecera.css">
+		<link rel="stylesheet" type="text/css" href="Estilos/pag_principal.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel|Sansita|Timmana|Walter+Turncoat" rel="stylesheet">
+		<script src="script/navSecundaria.js"></script>
+		<script src="script/listaJuegos.js" ></script>
+	</head>
+
+	<body>
+		<header>
+			<section id="barra_principal">
+				<button id="menu"><img src="Imagenes/menu.png"></button> 
+				<a href="index.html"><img src="Imagenes/bolsa.png" title="Lorem Ipsum" alt="Logo de la página de e-commerce"></a>	
+				<form id="form_busqueda">
+					<input type="search" id="search" name="search" placeholder="Buscar en la tienda">
+					<button type="submit">Buscar</button>
+				</form>
+				<ul id="registrar">
+					<li><a href="index.html"> Iniciar sesión</a></li>
+					<li><a href="formulario.html">Registarse</a></li>
+				</ul>
+				<button type="button" id="lupa"><img src="Imagenes/search.png"> </button>
+				<button type="button" id="usuario"><img src="Imagenes/user.png"></button>
+			</section>
+
+			<section>
+				<nav id="barra_secundaria">
+					<ul>
+						<li><a href="#"> Categorías</li></a>
+						<li><a href="#"> Top</li></a>
+						<li><a href="#"> Foro</li></a>
+						<li><a href="formulario_contacto.html">Contacto</a></li>
+						<li><a href="#"> Más</li></a>
+					</ul>
+				</nav>
+			</section>
+		</header>
+		<main>
+<!-- Abro sección a listado de juegos. El hipervínculo refiere al juego del cual hay una descripción, que recibe el nombre de "Juego A"-->
+			<section id="lista_a">
+<!--La idea es que la siguiente lista se muestre aleatoriamente y que a cada imágen como link le corresponda un juego-->
+				<ul>
+					<li id="juegoa" class="actual"><a href="juego_a.html"><img src="Imagenes/city.jpg"></a></li>
+					<li id="juegob"><a href="juego_a.html"><img src="Imagenes/auto.jpg"></a></li>
+					<li id="juegoc"><a href="juego_a.html"><img src="Imagenes/marvel.jpg"></a></li>
+					<li id="juegod"><a href="juego_a.html"><img src="Imagenes/planet.jpg"></a></li>
+				</ul>
+			</section>
+			<section id="listado_principal">
+
+			</section>
+<!--Abro sección de juegos más comprados-->
+			<section id="listado_mas_comprados">
+				<ol>
+<!-- En esta sección asocio al juego 1 el mismo link que al juego a, solo al efecto de la navegación. -->
+					<h2>Más comprados</h2>
+					<li>						
+						<a href="juego_a.html">
+						<h3 class="nom_mascomp">Juego 1</h3>
+						<img src="Imagenes/juego1 (1).jpg">
+						<ul>
+							<li>Calificación: 9/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+						</a>
+					</li>
+					<li>
+						<h3 class="nom_mascomp">Juego 2</h3>
+						<img src="Imagenes/juego1 (3).jpg">
+						<ul>
+							<li>Calificación: 10/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+					</li>
+					<li><h3 class="nom_mascomp">Juego 3</h3>
+						<img src="Imagenes/juego1 (8).jpg">
+						<ul>
+							<li>Calificación: 10/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+					</li>
+					<li>
+					<h3 class="nom_mascomp">Juego 4:</h3>	
+						<img src="Imagenes/juego1 (5).jpg">
+						<ul>
+							<li>Calificación: 10/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="nom_mascomp">Juego 5:</h3>
+						<img src="Imagenes/juego1 (6).jpg">
+						<ul>
+							<li>Calificación: 10/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+					</li>
+					<li>
+						<h3 class="nom_mascomp">Juego 6:</h3>
+						<img src="Imagenes/juego1 (4).jpg">
+						<ul>
+							<li>Calificación: 10/10</li>
+							<li>Categoría: Acción</li>
+							<li class="precio">Precio: $711</li>
+						</ul>
+					</li>
+				</ol>
+			</section>
+			<section>
+<!--La lista de números de páginas envían todas a la página pincipal, ya que no hay otro número de página escrito-->
+				<ul id="num_pag">
+					<li><a href="pagina_principal">Anterior</a></li>
+					<li><a href="pagina_principal">1</a></li>
+					<li><a href="pagina_principal">2</a></li>
+					<li><a href="pagina_principal">3</a></li>
+					<li><a href="pagina_principal">4</a></li>
+					<li><a href="pagina_principal">5</a></li>
+					<li><a href="pagina_principal">6</a></li>
+					<li><a href="pagina_principal">7</a></li>
+					<li><a href="pagina_principal">Siguiente</a></li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<div id="pagos"><p>Se aceptan las siguientes formas de pagos:</p><p class="formap">DÉBITO A</p><p class="formap">DÉBITO B</p><p class="formap">CRÉDITO C</p><p class="formap">CRÉDITO D</p></div>
+
+			<div class="pie" id="contc"><p><a href="formulario_contacto.html">Contacto:</a><br>Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+
+			<div class="pie" id="prod"><p><a href="pagina_principal.html">Productos:</a><br> Vestibulum mollis tortor non ante pellentesque tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada.</p></div>
+		</footer>
+	</body>
+</html>

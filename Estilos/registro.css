@@ -1,0 +1,229 @@
+@media(min-width:600px) and (max-width:799px){
+
+             /*Texto*/  
+  main form h1{
+   text-align:center;  
+   margin: auto;
+   padding-top: 120px;
+  }
+
+  main #detalle{
+    padding-bottom: 30px;
+    text-align:center;
+  }
+
+  main form #campos{
+   font-family: 'Abel', sans-serif;
+   border-left: 5px solid #d0d3d4;    
+   border-right: 5px solid #d0d3d4;  
+   background-color: #e5e8e8;
+   margin: auto;
+   width: 100%;
+   padding-bottom: 60px;
+  }  
+
+/*Margenes entre los recuadros*/
+  main div .acompletar{
+   padding-top:30px;
+  }
+
+  main form .acompletar input {
+   font-size: 1em; 
+   height: 40px;
+   width: 80%;  
+   margin-top: 10px;
+  }
+
+main form .acompletar #apellido{
+  margin-left: 34px;
+}
+
+main form .acompletar #email{
+  margin-left: 46px;
+}
+main form .acompletar #nombre{
+  margin-left: 33px;
+}
+main form .acompletar #repetir{
+  margin-left: 114px;
+}
+  
+    /* Alineo todos los recuadros*/
+  main form #Regist{
+   text-align: center;
+  }
+
+  main #campos{
+    padding-left: 2%;
+  }
+
+  main form label{
+    font-size: 1.5em;
+  }
+
+  main #Regist button{
+   margin-top:15%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.4em;
+ }
+  
+}
+
+
+@media(min-width:800px){
+  
+  main{
+   padding-top:40px; 
+   padding-bottom:100px;
+   background-image: url(mic.jpg) ;
+  }
+
+              /*Texto*/
+  main form h1{
+   text-align:center;  
+   padding: 50px;
+  }
+
+  main #detalle{
+    padding-bottom: 30px;
+    text-align:center;
+  }
+
+  main form #campos{
+   font-family: 'Abel', sans-serif;
+   border-left: 15px solid#2a508c;
+   border-right: 15px solid #2a508c;  
+   background-color:  #d4e6f1 ;
+   width: 700px;
+   height: 700px;
+   margin: auto;
+   padding-bottom: 60px;
+  }
+
+  main div .acompletar{
+    padding-top:30px;
+  }
+
+  main form .acompletar input {  
+   position: relative;
+   font-size: 1em; 
+   height: 40px;
+   width: 240px;  
+   padding-left: 10px;
+  }
+  
+   main form button{
+    background-color: #2a508c;
+    font-weight: bold;
+  }
+  
+  main form button{
+    color:  #d6dbdf;
+    font-weight: bold;
+  }
+  
+    /* Alineo todos los recuadros*/
+  main form #nombre{
+    left: 40px;
+  }
+  main form #apellido{
+    left: 38px;
+  }
+  main form #email{
+   left: 52px;
+  }
+  main form #pwd{
+    left: 4px;
+  }
+
+  main form #Regist{
+   text-align: center;
+  }
+
+  main #campos{
+    padding-left: 2%;
+  }
+
+  main form label{
+    font-size: 1.5em;
+  }
+
+  main #Regist button{
+   margin-top:15%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.4em;
+ }
+ 
+}
+
+
+
+@media(max-width:599px){
+
+                /*Texto*/  
+  main form h1{
+   text-align:center;  
+   margin: auto;
+   padding-top: 120px;
+  }
+
+  main #detalle{
+    padding-bottom: 30px;
+    text-align:center;
+  }
+
+  main form #campos{
+   font-family: 'Abel', sans-serif;
+   border-left: 5px solid #d0d3d4;    
+   border-right: 5px solid #d0d3d4;  
+   background-color: #e5e8e8;
+   margin: auto;
+   width: 100%;
+   padding-bottom: 60px;
+  }  
+
+  main div .acompletar{
+   padding-top:20px;
+  }
+
+  main form .acompletar input {
+   font-size: 1em; 
+   height: 30px;
+   width: 90%;  
+   margin-top: 2px;
+  }
+
+  main form input{
+    display: block;
+  }
+  
+  main form label{
+    font-size: 1.1em;
+  }
+
+
+       /*Boton de registro*/
+  main form #Regist{
+   text-align: center;
+  }
+
+  main #Regist button{
+   margin-top:15%;
+   width: 180px;
+   height: 50px;
+   border-radius: 20px;
+   border:1px solid aliceblue;
+   font-size: 1.4em;
+ }
+
+  main form input{
+    padding-left: 7px;
+  }
+  
+}

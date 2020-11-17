@@ -1,0 +1,329 @@
+
+@media(min-width: 810px){
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+   font-family: 'Sansita', sans-serif;
+   z-index: 5;
+   width: 100%;
+   position:relative;  
+   background-color: rgba(0, 12, 32, 0.8);
+   position: sticky;
+   top:-75px;
+  }
+
+                  /*Barra principal*/
+ header #barra_principal{
+   position: relative;  
+   padding:10px 0 0 10px;
+  }
+  
+ header #barra_principal ul{
+   display: inline-block;
+   position: absolute;
+   right:0;
+   bottom:10px;
+  }
+  
+ header #barra_principal ul li{
+   display: inline-block;
+   margin-right: 20px;
+   padding-bottom: 11px;
+  }
+  
+  header #barra_principal ul li a{
+   text-decoration: none;
+   font-size: 1.5em;
+   color: #d0d3d4;
+  }
+
+  header #barra_principal ul li a:hover{
+   font-weight: 570;
+   color:  #e5e7e9 ;
+  }
+
+  header #barra_principal form{
+   width:292px;
+   height: 35px;
+   display: inline-block;
+   position: relative;
+   bottom: 21px;
+   left: 45px;
+   font-size: 0;
+   border: 1px solid #85929e;
+  }
+
+  header #barra_principal form input{
+   height: 100%;
+   width: 80%;
+   font-size: 1rem;
+   border: none;
+   padding-left: 5px;
+   background-color:  #f2f4f4;
+  }
+
+  header #barra_principal form button{
+   height: 100%;
+   font-size: 1rem;
+   width: 58px;
+   border: none;
+   background-color: #e5e7e9;
+  }
+
+  header #barra_principal a img{
+   width: 150px;
+   height: 55px
+  }
+  
+    /*Escondo las imágenes que se presentan en pantallas mas pequeñas*/
+  header #barra_principal #menu,#usuario,#lupa{
+    display: none;
+  }
+
+                     /*Barra secundaria*/
+  header #barra_secundaria ul{
+   list-style-type: none;
+   font-size: 0;
+  }
+
+  header #barra_secundaria ul>li{
+    border-left: none;
+  }
+  
+  header #barra_secundaria ul li{
+   display: inline-block;
+   border-left: 1px solid  #808b96;
+   border-right: 1px solid  #808b96;
+   width: 20%;
+   height: 35px;
+   text-align: center;
+   font-size: 1.15rem;
+   background-color: rgba(0, 12, 32, 0.5);
+  }
+
+  header #barra_secundaria ul li a{
+   text-decoration: none;
+   font-size: 1.25em;
+   color: #d5dbdb;
+  }
+
+  header #barra_secundaria a{
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+  }
+
+  /*  Sombreado del menu si se le enfoca con el mouse */
+  header #barra_secundaria ul li a:hover{
+    background-color: #0b1019;
+  }
+
+}
+
+
+
+
+
+@media(max-width:809px){
+    
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+   z-index: 5;
+   width: 100%;
+   height: 60px;
+   position:relative;  
+   background-color: #212f3d;
+   position: fixed;
+   top: 0;
+  }
+                     /*Barra principal*/
+  header #barra_principal{
+   position: relative;
+   height:60px;
+   width: 100%;
+  }
+                 /*Ubico las imagenes de la barra principal */
+  header #barra_principal #lupa{
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  header #barra_principal #usuario{
+    position: absolute;
+    right: 60px;
+    bottom:10px;
+    border-radius: 10px;
+  }
+  
+  header #barra_principal #menu{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-radius: 10px;
+  }
+  
+  header #barra_principal button img{   
+    border:none;
+    width: 100%;
+    height: 100%;
+    background-color:  #d5d8dc ;
+  }
+  
+  header #barra_principal button{
+    line-height: 0;
+    border: none;
+    width: 40px;
+    padding: 5px;
+    background-color: #d5d8dc ;
+  }
+                /*Ubico el logo de la pagina */
+  header #barra_principal>a{
+    display: inline-block;
+    position:relative;
+    width: 30px;
+    top:10px;
+    left: 20px;
+  }
+
+  header #barra_principal>a img{
+    width: 100px;
+    height: 40px;
+  }
+  
+           /*No se muestra primer menu -registro, iniciar-.
+            Esta el estilo que tendría en caso de 
+           que se muestre */
+   header #barra_principal ul{
+   display:none ;
+  } 
+
+
+  header #barra_principal ul li a{
+   text-decoration: none;
+   font-size: 1em;
+   font-family: 'Sansita', sans-serif;
+    background-color: #212f3d;
+    color: #d6dbdf;
+  }
+
+  header #barra_principal ul li a:hover{
+   font-size: 1.1em;
+  }
+
+  header #barra_principal ul{
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    top: 60px;
+    right: 0;
+    padding-right: 9px;
+    
+  }
+
+  header #barra_principal ul li{
+    margin-bottom: 1px;
+     background-color: #212f3d;
+  }
+  
+         /*No muestro el buscardor. Presento el diseño que tendria desactivando 'display:none'*/
+  header #barra_principal form{
+   display: none;
+   width:100%;
+   height: 35px;
+   position: relative;
+   font-size: 0;
+   border: 1px solid #85929e;
+   top: 15px;
+  }
+ 
+  header #barra_principal form input{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   font-size: 1rem;
+   border: none;
+   background-color:  #f2f4f4;
+   padding-right: 90px;
+   padding-left:5px;
+  }
+
+  header #barra_principal form button{
+   position: absolute;
+   height: 100%;
+   font-size: 1rem;
+   width: 80px;
+   border: none;
+   background-color: #e5e7e9;
+   right: 0px;
+  }
+                                  /*Barra secundaria*/
+  /*No se muestra. Deberá desplegarse con el suguiente estilo.
+   Para visualizar descativar 'display:none' */
+  header #barra_secundaria{
+    display: none;
+  } 
+  
+  header #barra_secundaria ul{
+   list-style-type: none;
+   font-size: 0;
+   list-style: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    left: 5px;
+    width: 160px;
+    padding-right: 9px;
+  }
+
+  header #barra_secundaria ul li{
+    left: 5px;
+   width: 140px;
+   height: 35px;
+   text-align: center;
+   font-size: 1.15rem;
+   margin-bottom: 1px;
+   background-color: #212f3d;
+  }
+
+  header #barra_secundaria ul li a{
+    left: 5px;
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+   text-decoration: none;
+   font-size: 1em;
+   color: #d6dbdf;
+   font-family: 'Sansita', sans-serif;
+   background-color: #212f3d;
+  }
+
+
+
+
+/*  Sombreado del menu si se le enfoca con el mouse */
+  header #barra_secundaria ul li:nth-of-type(odd) a:hover{
+    font-size: 1.1em;
+  }
+
+  header #barra_secundaria ul li:nth-of-type(even) a:hover{
+    font-size: 1.1em;
+  }
+
+}

@@ -1,0 +1,401 @@
+
+*{
+  box-sizing: border-box;
+}
+
+/********************************************************************************************************/
+/********************************************************************************************************/
+/**********************************ESTILOS PARA PANTALLAS MAYORES A 790PX********************************/
+
+@media (min-width:790px){
+  /* Misma letra*/
+  #form_compra_juego div{ 
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;  
+    padding: 5px;
+    position: relative;  
+  }
+
+  .ocultarme{
+    display:none;
+  }
+
+  #comprar_juego{
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 80%;
+    left: 10%;
+    z-index: 6;
+    background-color: #d4e6f1;
+    border: 10px solid rgba(128, 154, 171, 0.3 );
+    border-radius: 15px;
+    font-size:0;
+  }
+  
+  #form_compra_juego{
+    font-size:1rem;
+    background-color: #d4e6f1;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid blue;
+  }
+  
+ #form_compra_juego>div>p{
+    padding: 10px 0px;
+    font-weight: bold;
+  }
+
+  /***** ORGANIZO LOS 'LABEL' EN LINEA ****/
+  #form_compra_juego input{
+    border: none;
+    background-color: rgb(248, 249, 249 );
+  }
+
+  #form_compra_juego div label[for=nombre]{
+    padding-right: 5%;
+  }
+
+  #form_compra_juego div #nombre{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=email]{
+    padding-right: 6%;
+  }
+
+  #form_compra_juego div #email{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=cantidad]{
+    padding-right: 7%;
+  } 
+
+  #form_compra_juego div #cantidad{
+    width:50px;
+    height: 25px;
+    padding-left: 8px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=mediosPago]{
+    padding-right: 30px;
+  }
+
+  #form_compra_juego div select{
+    height: 25px;
+    background-color: rgb(248, 249, 249 );
+    border:none;
+    border-radius: 5px;
+  }
+
+  #form_compra_juego div label[for=juego_fisico]{
+    border-left: 1px solid blue;
+    padding-left: 12px;
+  }
+  
+  #form_compra_juego div #juego_digital{
+    margin-right: 10px;
+  }
+  
+  #form_compra_juego div #direccion_envio{
+    width: 260px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom:30px;
+  } 
+
+  #form_compra_juego div label[for=direccion_envio]{
+    padding-right: 10px;
+  }
+  
+  #form_compra_juego div input[name=metodo_de_envio]{
+    margin-right: 15px;
+  }
+  
+  #form_compra_juego div label[for=metodo_especial]{
+    padding-left: 12px;
+    border-left: 1px solid blue;
+  }
+  #form_compra_juego div label[for=metodo_premium]{
+    padding-left: 10px;
+    border-left: 1px solid blue;
+  }
+
+  #form_compra_juego .boton_form_compra{
+    margin: 20px;
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.3em;
+  }  
+  
+  #cancelar_compra{
+    background-color: #ec7063;
+    border: 1px solid  #c0392b ;
+  }
+  #cancelar_compra:hover{
+    background-color: #cd6155;
+  }  
+
+  #confirmar_compra:hover{
+     background-color: #27ae60;
+  }
+  
+  #confirmar_compra{
+    background-color:#58d68d ;
+    border: 1px solid  #27ae60;
+  }
+  
+/***************DETALLES DE LA COMPRA******************/
+   #detalles_compra{
+    position:absolute;
+    top:22px;
+    right: 0;
+    width: 50%;
+    background-color: #d4e6f1;
+    padding: 10px 20px;
+  }
+  
+  #detalles_compra p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    width:50%;
+    font-size: 1rem;
+  }
+  
+  #detalles_compra>h2{
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  #p_final{
+    border-top: 1px solid blue;
+  }
+  
+  #detalles_compra #precio_final{
+    border-top: 1px solid blue;
+    text-align: right;
+    padding-right:20px;
+  }
+  
+  #cantidad_unidades{
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  #precio_unitario{
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  #precio_impuestos{
+    text-align: right;
+    padding-right: 20px;;
+  }
+  
+  #precio_envio{
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  /*********dejo INVISIBLE las opciones si el juego es FÍSICO******/
+  .ocultar{
+    display:none;
+  }
+}
+
+
+/********************************************************************************************************/
+/********************************************************************************************************/
+/*********************************ESTILOS PARA PANTALLAS MENORES A 789PX*********************************/
+
+@media (max-width:789px){
+   /*Misma letra*/
+  #form_compra_juego div{ 
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;  
+    padding: 5px;
+    position: relative;  
+  }
+
+  #comprar_juego{
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 96%;
+    left: 2%;
+    z-index: 6;
+    background-color: #d4e6f1;
+    border: 10px solid rgba(128, 154, 171, 0.3 );
+    border-radius: 15px;
+    font-size:0;
+  }
+  
+  #form_compra_juego{
+    font-size:1rem;
+    background-color: #d4e6f1;
+    padding: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  
+ #form_compra_juego>div>p{
+    padding: 10px 0px;
+    font-weight: bold;
+  }
+
+  /***** ORGANIZO LOS 'LABEL' EN LINEA ***/
+  #form_compra_juego input{
+    border: none;
+    background-color: rgb(248, 249, 249 );
+  }
+
+  #form_compra_juego div label[for=nombre]{
+    padding-right: 5%;
+  }
+
+  #form_compra_juego div #nombre{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=email]{
+    padding-right: 6%;
+  }
+
+  #form_compra_juego div #email{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=cantidad]{
+    padding-right: 7%;
+  } 
+
+  #form_compra_juego div #cantidad{
+    width:50px;
+    height: 25px;
+    padding-left: 8px;
+    border-radius: 10px;
+  }
+
+  #form_compra_juego div label[for=mediosPago]{
+    padding-right: 30px;
+  }
+
+  #form_compra_juego div select{
+    height: 25px;
+    background-color: rgb(248, 249, 249 );
+    border:none;
+    border-radius: 5px;
+  }
+
+  #form_compra_juego div label[for=juego_fisico]{
+    border-left: 1px solid blue;
+    padding-left: 12px;
+  }
+  
+  #form_compra_juego div #juego_digital{
+    margin-right: 10px;
+  }
+  
+  #form_compra_juego div #direccion_envio{
+    padding-left: 8px;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom:20px;
+  } 
+
+  #form_compra_juego .boton_form_compra{
+    width: 44%;
+    height: 34px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    position: absolute;
+  }  
+  
+  #cancelar_compra{
+    background-color: #ec7063;
+    border: 1px solid  #c0392b ;
+    bottom: 8px;
+    left: 28%;
+  }
+  
+  #confirmar_compra{
+    background-color:#58d68d ;
+    border: 1px solid  #27ae60;
+    bottom: 50px;
+    left: 28%;
+    
+  }
+  
+/***************DETALLES DE LA COMPRA******************/
+   #detalles_compra{
+    background-color: #d4e6f1;
+    padding: 10px 20px;
+    border-top: 1px solid blue;
+    padding-bottom: 100px;
+  }
+  
+  #detalles_compra p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    width:50%;
+    font-size: 1rem;
+  }
+  
+  #detalles_compra>h2{
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  #p_final{
+    border-top: 1px solid blue;
+  }
+  
+  #detalles_compra #precio_final{
+    border-top: 1px solid blue;
+    text-align: right;
+    padding-right:20px;
+  }
+  
+  #cantidad_unidades{
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  #precio_unitario{
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  #precio_impuestos{
+    text-align: right;
+    padding-right: 20px;;
+  }
+  
+  #precio_envio{
+    text-align: right;
+    padding-right: 20px;
+  }
+  /*********dejo INVISIBLE las opciones si el juego es FÍSICO******/
+  .ocultar{
+    display:none
+  }
+} 
+

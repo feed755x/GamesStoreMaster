@@ -1,0 +1,80 @@
+.mostrar_cartel{
+    top: 300px;
+}
+
+.no_mostrar_cartel{
+    top: -300px; 
+}
+
+@media(min-width: 800px) {
+
+#compraExitosa{ 
+    position: fixed;
+    z-index: 5;
+    left: 30%;
+    text-align: center;
+    border: 10px solid rgba( 169, 204, 227, 0.5);
+    width: 40%;
+    height: 160px;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.6em;
+    background-color: #e5e7e9;
+}
+
+#compraExitosa>p{
+    color: #333d4d;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#compraExitosa #cerrar_cartel_comprado{
+    font-size: 0.9em;
+    color: #192436;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+
+#compraExitosa #cerrar_cartel_comprado:hover{
+ font-size: 1.1em;
+}
+}
+
+/**************************MediaQuery*******************/
+@media(max-width: 799px) {
+
+#compraExitosa{ 
+    position: fixed;
+    z-index: 5;
+    left: 20%;
+    top: 100px;
+    text-align: center;
+    border: 10px solid rgba( 169, 204, 227, 0.5);
+    width: 60%;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.6em;
+    background-color: #e5e7e9;
+}
+
+#compraExitosa>p{
+    color: #333d4d;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#compraExitosa #cerrar_cartel_comprado{
+    font-size: 0.9em;
+    color: #192436;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+
+#compraExitosa #cerrar_cartel_comprado:hover{
+ font-size: 1.1em;
+}
+}

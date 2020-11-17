@@ -1,0 +1,415 @@
+
+@media(min-width:810px){
+
+  main{
+   padding: 5px 20px;
+   background-color:#001536;
+   position: relative;
+   font-family: 'Abel', sans-serif;
+ }
+
+              /*Lista aleatoria*/
+ main #lista_a ul{
+   position: relative;
+   width: 60%;
+ } 
+
+ main #lista_a ul li{
+   display: inline-block;
+   position: absolute;
+   background-color:#000816;
+   text-align: center;
+   top:15px;
+   width:100%;
+   right: -20px;
+ }
+.actual{
+  z-index: 2;
+}
+
+ main #lista_a ul li img{
+   margin: 5px 25px;
+   width: 90%;
+ }
+
+        /*Lista de mas vendidos*/
+  main #listado_mas_comprados img{
+    width: 100%;
+  }
+  
+ main ol{
+   display: inline-block;
+   position: absolute;
+   text-align: center;
+   right: 20px;
+   top: 0;
+   padding: 20px 30px;
+   margin: 150px 30px 90px 10px;
+   width: 25%;
+   background-color: #000816;
+   color:  #ccd1d1 ;
+ }
+  
+  main #listado_mas_comprados ul{
+    list-style-type: none;
+  }
+
+ main ol>li{
+   list-style-type: none;
+   color:  #fad7a0 ;
+   padding: 15px;
+   margin-top: 10px;
+   background-color: rgba( 27, 79, 114, 0.3); 
+ }
+
+ main ol>li a{
+   text-decoration: none;
+   color: #fad7a0;
+ }
+
+ main ol>li .nom_mascomp{
+   margin-bottom: 6px;
+ }
+
+              /*Lista principal de juegos*/
+ main #listado_principal{
+   width: 65%; 
+   margin-top:30%;
+   margin-left: 15px;
+ }
+
+ main #listado_principal .juego{
+   display: inline-block;
+   border: 1px solid  #0e2c44;
+   background-color: #0e2c44;
+   width: 32%;
+   height: 430px;
+ }
+
+ main #listado_principal ul li{
+   list-style-type: none;
+   text-align: center;
+   color:  #fad7a0 ;
+ }
+
+ main #listado_principal .juego a{
+   text-decoration: none;
+   color: #bdc3c7;
+   float: left;
+   width: 100%;
+   height: 100%;
+   padding: 0 4px;
+ }
+  
+  main #listado_principal .juego a:hover{
+    background-color:rgba( 189, 195, 199, 0.2 );
+  }
+
+ main #listado_principal .juego img{
+   width: 99%;
+   height: 40%;
+ }
+
+ main #listado_principal .juego .nomb_juego{
+  font-family: 'Sansita', sans-serif;
+  padding: 8px 0;
+  font-size:1.3em;
+  text-align: center;
+  color:  #fad7a0 ;
+ }
+
+  main #listado_principal .juego .precio{
+    font-weight: bold;
+  }
+
+            /*Lista de paginas*/
+ main section #num_pag{
+   width: 50%;
+   text-align: center;
+   margin: 100px 25%;   
+   word-spacing: 600%;
+ }
+
+ main section #num_pag li{
+   display: inline-block;
+   text-align: center;
+ } 
+
+ main section #num_pag li a{
+   text-decoration: none;
+   color: #d5d8dc;
+ }
+
+ main section #num_pag li a:hover{
+   font-weight: bold;
+ }
+  
+}
+
+
+
+
+
+@media(max-width:430px){
+
+  main{
+   font-family: 'Abel', sans-serif;  
+   padding: 5px 20px;
+   background-color: #000816;
+   position: relative;
+   margin-top: 5%;
+ }
+
+             /* Lista aleatoria */
+  main #lista_a ul img{
+    width: 100%;
+  }
+  
+ main #lista_a ul li{  
+   padding: 5% 0;
+   display: inline-block;
+   position: absolute;
+   background-color:  #000816;
+   text-align: center;
+   top:40px;
+   width:100%;
+   left: 0;
+ }
+ .actual{
+  z-index: 2;
+}
+
+       /*  Lista de mas vendidos */
+ main ol{
+   margin-top: 70px;
+   text-align: center;
+   background-color:#000816;
+   color:  #ccd1d1; 
+ }
+  
+  main #listado_mas_comprados img{
+    width: 100%;
+  }
+
+ main ol>li{
+   list-style-type: none;
+   padding: 5px;
+   margin-top: 10px;
+   background-color:#081d32; 
+   color:  #ccd1d1; 
+ }
+
+ main ol>li a{
+   text-decoration: none;
+   color:  #ccd1d1; 
+ }
+  
+  main ol ul li{
+    display: none;
+  }
+
+            /*   Lista principal de juegos  */
+ main #listado_principal{
+   width: 100%; 
+   margin-top:75%;
+   border-bottom: 3px solid  #000816;
+ }
+  
+  /*No muestro el párrafo*/ 
+  main #listado_principal ul li{
+  display: none;
+ }
+ 
+  main #listado_principal p{
+    display: none;
+  }
+  
+ main #listado_principal .juego{
+   border-top: 2px solid #000816;
+   border-left: 4px solid #000816;
+   border-right: 4px solid #000816;
+   background-color: #0e2c44;
+   height: 260px;
+   padding: 0 9px;
+ }
+ 
+  main #listado_principal a{
+    text-decoration: none;
+  }
+
+ main #listado_principal .juego img{
+   margin-right: 8px;
+   width: 100%;
+   height: 70%;
+ }
+
+ main #listado_principal .juego .nomb_juego{
+  padding: 20px 0;
+  font-size:1.2em;
+  text-align: center;
+  color: #f5cba7;
+ }
+ 
+         /*   Lista de paginas  */
+ main section #num_pag{
+   margin: 100px 0;
+   text-align:center;
+   word-spacing: 5px;
+ }
+
+ main section #num_pag li{
+   display: inline-block;
+   text-align: center;
+ } 
+
+ main section #num_pag li a{
+   text-decoration: none;
+   color:  #ccd1d1; 
+ }
+
+ main section #num_pag li a:hover{
+   font-weight: bold;
+ }
+  
+}
+
+
+
+@media(min-width:431px) and (max-width:809px){
+
+  main{
+   font-family: 'Abel', sans-serif;  
+   padding: 5px 20px;
+   background-color: #001536;
+   position: relative;
+ }
+
+            /* Lista aleatoria */
+  main #lista_a ul img{
+    width: 100%;
+  }
+  
+ main #lista_a ul li{  
+   padding: 5% 1%;
+   display: inline-block;
+   position: absolute;
+   background-color:#314a5e;
+   text-align: center;
+   top:40px;
+   width:100%;
+   left: 0;
+ }
+ .actual{
+  z-index: 2;
+}
+
+       /*  Lista de mas vendidos */
+  main ol img{
+    width: 100%;
+    height: 130px;
+  }
+  
+ main ol{
+   color: #e5e8e8  ;
+   text-align: center;
+   padding: 20px 0px;
+   background-color:#000816;
+ }
+  
+  /*No muestro el detalle*/
+  main #listado_mas_comprados ol ul{
+    display: none;
+  }
+  
+ main ol>li{ 
+   display: inline-block;
+   width:40%; 
+   list-style-type: none;
+   padding: 5px;
+   margin-top: 5px;
+   background-color:#081d32; 
+ }
+
+ main ol>li a{
+   text-decoration: none;
+   color: #ccd1d1;
+ }
+
+ main ol>li .nom_mascomp{
+   margin-bottom: 6px;
+   text-decoration: underline;
+   color:  #f0b27a; 
+ }
+  
+
+                     /*   Lista principal de juegos  */
+ main #listado_principal{
+   width: 100%; 
+   margin-top:75%;
+ }
+
+ main #listado_principal .juego{
+   border-top: 4px solid  #000816 ;
+   border-left: 2px solid #000816;
+   border-right: 2px solid #000816;
+   background-color: #0e2c44;
+   height: 270px;
+   padding: 0 9px;
+ }
+  
+ main #listado_principal ul li{
+   list-style-type: none;
+   color:  #f0b27a;
+   padding-top: 20px;
+ }
+  
+  /* No muestro el párrafo. Que el detalle sea en la descripción del juego */
+  main #listado_principal p{
+    display: none
+  }
+  
+  main #listado_principal .juego .precio{
+    font-weight: bold;
+  }
+
+ main #listado_principal .juego a{
+   text-decoration: none;
+ }
+  
+ main #listado_principal .juego img{
+   margin-right: 20px;
+   width: 50%;
+   height: 70%;
+   float: left;
+ }
+
+ main #listado_principal .juego .nomb_juego{
+  padding: 10px 0;
+  margin-right: 30px;
+  font-size:1.6em;
+  text-align: right;
+  color:  #f0b27a;
+ }
+  
+         /*   Lista de paginas  */
+ main section #num_pag{
+   margin: 100px 0;
+   text-align:center;
+   word-spacing: 5px;
+ }
+
+ main section #num_pag li{
+   display: inline-block;
+   text-align: center;
+ } 
+
+ main section #num_pag li a{
+   text-decoration: none;
+   color:  #ccd1d1; 
+ }
+
+ main section #num_pag li a:hover{
+   font-weight: bold;
+ }
+  
+}
